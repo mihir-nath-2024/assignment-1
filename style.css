@@ -47,6 +47,11 @@
   .secondary-div {
     display: flex;
     justify-content: space-between;
+    max-width: 946px;
+    margin: 52px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 48px;
   }
   .section-2-heading {
     font-size: 32px;
@@ -56,8 +61,43 @@
     max-width: 1140px;
     text-align: center;
     margin: 0 auto;
+    height: 1395px;
   }
   .inner-div>h2 {
     font-size: 24px;
     font-weight: bold;
+    
+    
   }
+  .section-2-main-div {
+    background-color: #C7D0E4;
+    
+    max-width: 1140px;
+    border-radius: 5px;
+
+    
+  }
+  .btn-secondary {
+    max-width: 160px;
+    height: 35px;
+    background-color: white;
+    color: black;
+   font-size: 20ppx;
+   font-weight: 600;
+  }
+  .inner-div {
+    text-align: left;
+    
+  }
+  .secondary-div-2 {
+    display: flex;
+    justify-content: left;
+    max-width: 946px;
+    margin: 52px auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 48px;
+
+  }
+
+
