@@ -41,3 +41,23 @@
     text-decoration: none;
     color: white;
   }
+
+  /* section-2 styling */
+
+  .secondary-div {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-2-heading {
+    font-size: 32px;
+    font-weight: bolder;
+  }
+  .section-2-main-div{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .inner-div>h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
