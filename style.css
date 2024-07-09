@@ -17,8 +17,8 @@
    .banner-content {
     margin: 20px 221px 50px 221px;
     /* Iadditional styling */
-    background-color: blueviolet;
-    opacity: 0.5;
+    
+    
     
    }
   .heading {
@@ -70,7 +70,8 @@
     
   }
   .section-2-main-div {
-    background-color: #C7D0E4;
+    /* background-color: #C7D0E4; */
+    background-color: rgba(13, 19, 33, 0.02);
     
     max-width: 1140px;
     border-radius: 5px;
@@ -99,5 +100,88 @@
     padding: 48px;
 
   }
+  /* section 3 */
+  .sec-3-main-div {
+    max-width: 1140px;
+    height: 777px;
+    text-align: center;
+    margin: 0 auto;
+  }
+.video {
+  max-width: 1140px;
+  height: 614px;
+  border-radius: 16px;
+  border: solid 1px #C7D0E4;
+  padding: 32px;
+}
+/* Experimental */
+iframe{
+  border-radius: 16px;
+}
+.sec-3-heading {
+  color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+}
 
 
+/* Card Section */
+.card-sec-heading {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.card>h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.card-container a {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+.card-container {
+  width: 1140px;
+height: 463px;
+margin: 20px auto;
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+.card-1{
+  width: 364px;
+height: 300px;
+padding: 40px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.card-2{
+  width: 364px;
+height: 300px;
+padding: 40px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+  width: 364px;
+height: 300px;
+padding: 40px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.card-section-inner-div{
+  text-align: center;
+  margin: 150px auto;
+}
+  
+
+/* Chalenge Part */
+
+.challenge-div{
+  background-image: url(./assets/handshake.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  width: 1140px;
+  height: 314px;
+margin: 35px 150px 5px 150px;
+}
