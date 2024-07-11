@@ -17,7 +17,7 @@
             <h1 class="heading">"In the near future, I hope to become a <br>Developer."</h1>
             <p class="banner-description">Creating innovative solutions and writing clean, efficient code, <br>
                 I will contribute to transformative projects that enhance user experiences. </p>
-            <button class="btn-primary"><a href="">Contact with me</a></button>
+            <button class="btn-primary" onclick="scrollToFooter()">Contact with me</button>
         </div>
     </section >
     <section class="section-2">
@@ -110,7 +110,7 @@
             </div>
         </div>
     </section>
-    <section class="footer-section">
+    <section class="footer-section" id="footer-section">
         <footer class="footer">
             
                 <p>An Open Commitment by Mihir Nath</p>
@@ -125,5 +125,11 @@
             </div>
             </footer>
     </section>
+    <script>
+        function scrollToFooter() {
+            var footerSection = document.getElementById('footer-section');
+            footerSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
